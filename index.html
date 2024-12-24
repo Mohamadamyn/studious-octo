@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سوريا المستقبل</title>
+    <style>
+        /* استايل عام */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            direction: rtl;
+            background-color: #eaeaea;
+            color: #333;
+        }
+
+        /* الشريط العلوي */
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        /* الأقسام */
+        section {
+            padding: 40px 0;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #2c3e50;
+        }
+
+        section p, section ul {
+            font-size: 1.1em;
+            line-height: 1.6em;
+            text-align: center;
+        }
+
+        /* نموذج الاتصال */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        form textarea, form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s;
+        }
+
+        form textarea:focus, form input:focus {
+            border-color: #3498db;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            border: none;
+            color: white;
+            font-size: 1.1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        form button:hover {
+            background-color: #2980b9;
+        }
+
+        /* التذييل */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>سوريا المستقبل</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">عن الموقع</a></li>
+                    <li><a href="#history">تحليل تاريخي</a></li>
+                    <li><a href="#political">التعقيد السياسي الراهن</a></li>
+                    <li><a href="#stories">قصص إنسانية</a></li>
+                    <li><a href="#solutions">مقترحات عملية</a></li>
+                    <li><a href="#comments">التعليقات</a></li>
+                    <li><a href="#subscribe">اشتراك</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home">
+        <div class="container">
+            <h2>منصة مستقلة لنشر التوعية وإعادة بناء الثقة في سوريا</h2>
+            <p>مرحبًا بك في موقع "سوريا المستقبل"، منصة مستقلة تهدف إلى التوعية حول قضايا المصالحة الوطنية وإعادة بناء الثقة بين أفراد المجتمع السوري بعد سنوات من الصراع.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>من نحن؟</h2>
+            <p>"سوريا المستقبل" هو موقع مجهول الهوية، مستقل، وغير مرتبط بأي جهة سياسية أو طائفية. هدفنا الأساسي هو تقديم توعية موضوعية حول تعقيدات النسيج الاجتماعي السوري، ودور الجيش كمؤسسة وطنية في ظل الظروف الراهنة.</p>
+        </div>
+    </section>
+    
+    <section id="history">
+        <div class="container">
+            <h2>تحليل تاريخي</h2>
+            <p>على مر التاريخ، عانت المجتمعات التي شهدت حروبًا داخلية أو انقلابات سياسية من تحديات كبيرة في التعامل مع عائلات وأبناء الجنود والشهداء، سواء كانوا من صفوف الجيش أو المعارضة.</p>
+            <ul>
+                <li>ألمانيا بعد الحرب العالمية الثانية: إعادة دمج الجنود السابقين في المجتمع.</li>
+                <li>جنوب إفريقيا: لجان المصالحة الوطنية.</li>
+                <li>العراق: أزمات ناجمة عن إقصاء الجيش السابق.</li>
+            </ul>
+            <p>هذه الأمثلة تُبرز أهمية المصالحة والدمج المجتمعي في بناء السلام.</p>
+        </div>
+    </section>
+    
+    <section id="political">
+        <div class="container">
+            <h2>التعقيد السياسي الراهن</h2>
+            <p>الوضع الراهن في سوريا يتميز بتعدد الأطراف المتنازعة والانقسام الطائفي، مما يعقد أي محاولات للمصالحة الوطنية.</p>
+            <p>سلبيات تجاهل المصالحة الوطنية:</p>
+            <ul>
+                <li>تعميق الانقسامات والكراهية.</li>
+                <li>زيادة الهجرة الجماعية وفقدان الكفاءات.</li>
+                <li>إضعاف الثقة بمؤسسات الدولة.</li>
+                <li>احتمالية ظهور صراعات جديدة مستقبلاً.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="stories">
+        <div class="container">
+            <h2>قصص إنسانية</h2>
+            <h3>الجيش السوري:</h3>
+            <p>آلاف الشهداء والجرحى، معاناة عائلات الجنود، ونقص الدعم الطبي والاجتماعي.</p>
+            <h3>المعارضة السورية:</h3>
+            <p>معاناة أسر فقدت أبناءها في صراعات طويلة ومرهقة، إضافة إلى التهجير والنزوح.</p>
+        </div>
+    </section>
+    
+    <section id="solutions">
+        <div class="container">
+            <h2>مقترحات عملية</h2>
+            <ul>
+                <li>إعادة بناء مؤسسات الدولة على أسس وطنية.</li>
+                <li>إنشاء لجان مستقلة للتحقيق في الانتهاكات.</li>
+                <li>دعم عائلات الشهداء والجرحى من جميع الأطراف.</li>
+                <li>برامج تأهيل نفسي واجتماعي للمتضررين.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="comments">
+        <div class="container">
+            <h2>التعليقات</h2>
+            <p>شارك برأيك حول الموضوع</p>
+            <form>
+                <label for="comment">اكتب تعليقك:</label>
+                <textarea id="comment" name="comment" rows="4" placeholder="اكتب هنا..."></textarea>
+                <button type="submit">إرسال التعليق</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="subscribe">
+        <div class="container">
+            <h2>اشترك في الموقع</h2>
+            <p>للحصول على آخر التحديثات مباشرة إلى بريدك الإلكتروني:</p>
+            <form>
+                <label for="email">البريد الإلكتروني:</label>
+                <input id="email" name="email" type="email" placeholder="example@example.com" required>
+                <button type="submit">اشترك</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 سوريا المستقبل. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const commentForm = document.querySelector('form');
+            const emailForm = document.querySelectorAll('form')[1]; // نموذج الاشتراك
+
+            commentForm.addEventListener('submit', function(event) {
+                event.preventDefault(); // منع الإرسال الفوري
+                alert('تم إرسال تعليقك! شكراً لمشاركتك.');
+                commentForm.reset(); // إعادة تعيين النموذج
+            });
+
+            emailForm.addEventListener('submit', function(event) {
+                event.preventDefault(); // منع الإرسال الفوري
+                const emailInput = emailForm.querySelector('input[type="email"]');
+                alert(`تم الاشتراك باستخدام البريد الإلكتروني: ${emailInput.value}`);
+                emailForm.reset(); // إعادة تعيين النموذج
+            });
+        });
+    </script>
+</body>
+</html>
